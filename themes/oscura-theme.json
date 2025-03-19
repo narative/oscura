@@ -623,6 +623,133 @@
       "settings": {
         "foreground": "#5C6974" // Dark gray for all types of brackets and delimiters
       }
+    },
+    {
+      "name": "Python Decorators",
+      "scope": [
+        "entity.name.function.decorator.python",
+        "punctuation.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#E6E7A3" // Light yellow for Python decorators
+      }
+    },
+    {
+      "name": "Python Built-in Functions",
+      "scope": [
+        "support.function.builtin.python",
+        "support.function.magic.python"
+      ],
+      "settings": {
+        "foreground": "#E6E7A3" // Light yellow for Python built-in functions
+      }
+    },
+    {
+      "name": "Python Special Keywords",
+      "scope": [
+        "keyword.control.flow.python",
+        "keyword.control.import.python",
+        "keyword.control.statement.python",
+        "keyword.operator.logical.python",
+        "keyword.operator.arithmetic.python",
+        "keyword.operator.assignment.python",
+        "keyword.operator.comparison.python",
+        "keyword.operator.bitwise.python",
+        "keyword.operator.member.python",
+        "keyword.operator.wordlike.python"
+      ],
+      "settings": {
+        "foreground": "#9099A1" // Grayish for Python keywords
+      }
+    },
+    {
+      "name": "Python Self Parameter",
+      "scope": ["variable.parameter.function.language.special.self.python"],
+      "settings": {
+        "foreground": "#9592A4" // Muted purple for Python self parameter
+      }
+    },
+    {
+      "name": "Python Class Names",
+      "scope": [
+        "entity.name.type.class.python",
+        "entity.name.type.class.python punctuation.definition.class.python"
+      ],
+      "settings": {
+        "foreground": "#E6E7A3" // Light yellow for Python class names
+      }
+    },
+    {
+      "name": "Python Function Names",
+      "scope": [
+        "entity.name.function.python",
+        "meta.function.python entity.name.function.python"
+      ],
+      "settings": {
+        "foreground": "#E6E7A3" // Light yellow for Python function names
+      }
+    },
+    {
+      "name": "Python Variables",
+      "scope": [
+        "variable.other.constant.python",
+        "variable.other.enummember.python",
+        "variable.other.property.python",
+        "variable.other.object.python",
+        "variable.other.readwrite.python"
+      ],
+      "settings": {
+        "foreground": "#E6E7A3" // Light yellow for Python variables
+      }
+    },
+    {
+      "name": "Python String Formatting",
+      "scope": [
+        "constant.character.format.placeholder.other.python",
+        "constant.character.format.placeholder.other.python punctuation.definition.format.placeholder.python"
+      ],
+      "settings": {
+        "foreground": "#F9B98C" // Peachy color for Python string formatting placeholders
+      }
+    },
+    {
+      "name": "Python Type Hints",
+      "scope": [
+        "storage.type.python",
+        "storage.type.annotation.python",
+        "storage.type.function.python",
+        "storage.type.class.python",
+        "storage.type.union.python",
+        "storage.type.intersection.python",
+        "storage.type.optional.python",
+        "storage.type.any.python",
+        "storage.type.unknown.python",
+        "storage.type.none.python"
+      ],
+      "settings": {
+        "foreground": "#9099A1" // Grayish for Python type hints
+      }
+    },
+    {
+      "name": "Python Strings",
+      "scope": [
+        "string.quoted.single.python",
+        "string.quoted.double.python",
+        "string.quoted.triple.single.python",
+        "string.quoted.triple.double.python",
+        "string.regexp.python",
+        "string.quoted.single.python punctuation.definition.string.begin.python",
+        "string.quoted.single.python punctuation.definition.string.end.python",
+        "string.quoted.double.python punctuation.definition.string.begin.python",
+        "string.quoted.double.python punctuation.definition.string.end.python",
+        "string.quoted.triple.single.python punctuation.definition.string.begin.python",
+        "string.quoted.triple.single.python punctuation.definition.string.end.python",
+        "string.quoted.triple.double.python punctuation.definition.string.begin.python",
+        "string.quoted.triple.double.python punctuation.definition.string.end.python"
+      ],
+      "settings": {
+        "foreground": "#F9B98C" // Peachy color for Python strings
+      }
     }
   ]
 }
