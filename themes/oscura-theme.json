@@ -638,6 +638,162 @@
       "settings": {
         "foreground": "#F9B98C"  // Next.js directives like "use server"
       }
+    },
+
+    // -------------------------------------------------------------------------
+    // Python Colors
+    // -------------------------------------------------------------------------
+    {
+      "name": "Python Built-in Functions & Classes",
+      "scope": [
+        "support.function.builtin.python",
+        "support.function.magic.python",
+        "support.type.builtin.python"
+      ],
+      "settings": {
+        "foreground": "#E6E7A3",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python Function Arguments",
+      "scope": ["variable.parameter.function.python"],
+      "settings": {
+        "foreground": "#9592A4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python Special Keywords",
+      "scope": [
+        "keyword.control.flow.python",
+        "keyword.control.import.python",
+        "keyword.control.statement.python",
+        "keyword.operator.member.python",
+        "keyword.operator.wordlike.python"
+      ],
+      "settings": {
+        "foreground": "#9099A1"
+      }
+    },
+    {
+      "name": "Python Operators",
+      "scope": [
+        "keyword.operator.logical.python",
+        "keyword.operator.arithmetic.python",
+        "keyword.operator.assignment.python",
+        "keyword.operator.comparison.python",
+        "keyword.operator.bitwise.python"
+      ],
+      "settings": {
+        "foreground": "#F9B98C"
+      }
+    },
+    {
+      "name": "Python Type Hints",
+      "scope": [
+        "storage.type.python",
+        "storage.type.annotation.python",
+        "storage.type.function.python",
+        "storage.type.class.python",
+        "storage.type.union.python",
+        "storage.type.intersection.python",
+        "storage.type.optional.python",
+        "storage.type.any.python",
+        "storage.type.unknown.python",
+        "storage.type.none.python"
+      ],
+      "settings": {
+        "foreground": "#E6E7A3",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python Self Parameter",
+      "scope": ["variable.parameter.function.language.special.self.python"],
+      "settings": {
+        "foreground": "#9592A4"
+      }
+    },
+    {
+      "name": "Python Class Names",
+      "scope": [
+        "entity.name.type.class.python",
+        "entity.name.type.class.python punctuation.definition.class.python"
+      ],
+      "settings": {
+        "foreground": "#E6E7A3"
+      }
+    },
+    {
+      "name": "Python Function Names",
+      "scope": [
+        "entity.name.function.python",
+        "meta.function.python entity.name.function.python"
+      ],
+      "settings": {
+        "foreground": "#E6E7A3"
+      }
+    },
+    {
+      "name": "Python Variables",
+      "scope": [
+        "variable.other.constant.python",
+        "variable.other.enummember.python",
+        "variable.other.property.python",
+        "variable.other.object.python",
+        "variable.other.readwrite.python"
+      ],
+      "settings": {
+        "foreground": "#E6E7A3"
+      }
+    },
+    {
+      "name": "Python String Formatting",
+      "scope": [
+        "constant.character.format.placeholder.other.python",
+        "constant.character.format.placeholder.other.python punctuation.definition.format.placeholder.python"
+      ],
+      "settings": {
+        "foreground": "#F9B98C"
+      }
+    },
+    {
+      "name": "Python Strings",
+      "scope": [
+        "string.quoted.single.python",
+        "string.quoted.double.python",
+        "string.quoted.triple.single.python",
+        "string.quoted.triple.double.python",
+        "string.regexp.python",
+        "string.quoted.single.python punctuation.definition.string.begin.python",
+        "string.quoted.single.python punctuation.definition.string.end.python",
+        "string.quoted.double.python punctuation.definition.string.begin.python",
+        "string.quoted.double.python punctuation.definition.string.end.python",
+        "string.quoted.triple.single.python punctuation.definition.string.begin.python",
+        "string.quoted.triple.single.python punctuation.definition.string.end.python",
+        "string.quoted.triple.double.python punctuation.definition.string.begin.python",
+        "string.quoted.triple.double.python punctuation.definition.string.end.python"
+      ],
+      "settings": {
+        "foreground": "#F9B98C"
+      }
+    },
+    {
+      "name": "Python Docstrings",
+      "scope": ["string.quoted.docstring.multi.python"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#9592A4"
+      }
+    },
+    {
+      "name": "Python Built-in Constants",
+      "scope": ["constant.language.python"],
+      "settings": {
+        "foreground": "#F9B98C",
+        "fontStyle": "italic"
+      }
     }
   ]
 }
