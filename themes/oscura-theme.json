@@ -5,121 +5,121 @@
   // -------------------------------------------------------------------------
   "colors": {
     // Workbench: Basic editor colors
-    "editor.background": "#0B0B0F",
-    "editor.foreground": "#E6E6E6",
-    "editorLineNumber.foreground": "#32333B",
-    "editorLineNumber.activeForeground": "#E6E6E6",
-    "editorGroupHeader.tabsBackground": "#0B0B0F",
-    "editorWarning.foreground": "#FF5C5C",
-    "editorError.foreground": "#FF5C5C",
+    "editor.background": "#0B0B0F",                    // Main editor background
+    "editor.foreground": "#E6E6E6",                    // Default text color
+    "editorLineNumber.foreground": "#32333B",          // Line number color
+    "editorLineNumber.activeForeground": "#E6E6E6",    // Active line number color
+    "editorGroupHeader.tabsBackground": "#0B0B0F",     // Editor group header background
+    "editorWarning.foreground": "#FF5C5C",             // Warning squiggles color
+    "editorError.foreground": "#FF5C5C",               // Error squiggles color
 
     // Selection and highlighting
-    "editor.selectionBackground": "#EAEC8A16",
-    "editor.selectionHighlightBackground": "#FFFFFF08",
-    "editor.wordHighlightBackground": "#EAEC8A21",
-    "editor.wordHighlightStrongBackground": "#EAEC8A21",
-    "selection.background": "#5A5B63",
+    "editor.selectionBackground": "#EAEC8A16",         // Selected text background
+    "editor.selectionHighlightBackground": "#FFFFFF08", // Matching selection background
+    "editor.wordHighlightBackground": "#EAEC8A21",     // Reference highlight background
+    "editor.wordHighlightStrongBackground": "#EAEC8A21", // Write-access reference background
+    "selection.background": "#5A5B63",                 // General selection background
 
     // Diff editor
-    "diffEditor.insertedTextBackground": "#E6E6E615",
-    "diffEditor.insertedLineBackground": "#E6E6E615",
-    "diffEditor.removedTextBackground": "#D84F6815",
-    "diffEditor.removedLineBackground": "#D84F6815",
+    "diffEditor.insertedTextBackground": "#E6E6E615",  // Added text background
+    "diffEditor.insertedLineBackground": "#E6E6E615",  // Added line background
+    "diffEditor.removedTextBackground": "#D84F6815",   // Removed text background
+    "diffEditor.removedLineBackground": "#D84F6815",   // Removed line background
 
     // Editor gutter
-    "editorGutter.addedBackground": "#E6E6E6",
-    "editorGutter.deletedBackground": "#D84F68",
-    "editorGutter.modifiedBackground": "#E6E7A3",
+    "editorGutter.addedBackground": "#E6E6E6",         // Added line gutter indicator
+    "editorGutter.deletedBackground": "#D84F68",       // Deleted line gutter indicator
+    "editorGutter.modifiedBackground": "#E6E7A3",      // Modified line gutter indicator
 
     // Sidebar and activity bar
-    "sideBar.background": "#0B0B0F",
-    "sideBar.foreground": "#C1C1C1",
-    "sideBarTitle.foreground": "#9592A4",
-    "sideBarSectionHeader.foreground": "#9592A4",
-    "sideBarSectionHeader.background": "#0B0B0F",
-
+    "sideBar.background": "#0B0B0F",                   // Sidebar background
+    "sideBar.foreground": "#C1C1C1",                   // Sidebar text color
+    "sideBarTitle.foreground": "#9592A4",              // Sidebar title color
+    "sideBarSectionHeader.foreground": "#9592A4",      // Section header text
+    "sideBarSectionHeader.background": "#0B0B0F",      // Section header background
+    
     // Activity bar
-    "activityBar.background": "#0B0B0F",
-    "activityBar.foreground": "#9592A4",
-    "activityBarBadge.background": "#E6E7A3",
-    "activityBarBadge.foreground": "#000",
+    "activityBar.background": "#0B0B0F",               // Activity bar background
+    "activityBar.foreground": "#9592A4",               // Activity bar icons
+    "activityBarBadge.background": "#E6E7A3",          // Badge background
+    "activityBarBadge.foreground": "#000",             // Badge text
 
     // Title bar
-    "titleBar.activeBackground": "#0B0B0F",
-    "titleBar.inactiveBackground": "#0B0B0F",
-    "titleBar.activeForeground": "#7E7E7E",
-    "titleBar.inactiveForeground": "#6A7782",
+    "titleBar.activeBackground": "#0B0B0F",            // Active window title background
+    "titleBar.inactiveBackground": "#0B0B0F",          // Inactive window title background
+    "titleBar.activeForeground": "#7E7E7E",            // Active window title text
+    "titleBar.inactiveForeground": "#6A7782",          // Inactive window title text
 
     // Tabs
-    "tab.border": "#0B0B0F",
-    "tab.activeBackground": "#0B0B0F",
-    "tab.activeBorder": "#E6E6E670",
-    "tab.activeForeground": "#FFF",
-    "tab.inactiveBackground": "#0B0B0F",
+    "tab.border": "#0B0B0F",                          // Tab border
+    "tab.activeBackground": "#0B0B0F",                // Active tab background
+    "tab.activeBorder": "#E6E6E670",                  // Active tab border
+    "tab.activeForeground": "#FFF",                   // Active tab text
+    "tab.inactiveBackground": "#0B0B0F",              // Inactive tab background
 
     // Status bar
-    "statusBar.background": "#0B0B0F",
-    "statusBar.foreground": "#9592A4",
-    "statusBar.noFolderBackground": "#0B0B0F",
-    "statusBar.debuggingBackground": "#4EBE96",
-    "statusBar.debuggingForeground": "#E6E6E6",
-    "statusBarItem.remoteBackground": "#E6E7A3",
-    "statusBarItem.remoteForeground": "#000",
+    "statusBar.background": "#0B0B0F",                // Status bar background
+    "statusBar.foreground": "#9592A4",                // Status bar text
+    "statusBar.noFolderBackground": "#0B0B0F",        // Status bar background when no folder is open
+    "statusBar.debuggingBackground": "#4EBE96",       // Debug mode background
+    "statusBar.debuggingForeground": "#E6E6E6",       // Debug mode text
+    "statusBarItem.remoteBackground": "#E6E7A3",      // Remote indicator background
+    "statusBarItem.remoteForeground": "#000",         // Remote indicator text
 
     // Global UI elements
-    "badge.background": "#D6D876",
-    "badge.foreground": "#000",
-    "button.background": "#E6E7A3",
-    "button.hoverBackground": "#D6D876",
-    "button.foreground": "#000",
-    "focusBorder": "#E6E7A3",
+    "badge.background": "#D6D876",                    // Badge background
+    "badge.foreground": "#000",                       // Badge text
+    "button.background": "#E6E7A3",                   // Button background
+    "button.hoverBackground": "#D6D876",              // Button hover background
+    "button.foreground": "#000",                      // Button text
+    "focusBorder": "#E6E7A3",                        // Focus border color
 
     // List and tree views
-    "list.activeSelectionBackground": "#232323",
-    "list.activeSelectionForeground": "#E6E6E6",
-    "list.inactiveSelectionBackground": "#232323",
-    "list.errorForeground": "#FFF",
-    "list.warningForeground": "#FFA16C",
-    "list.hoverBackground": "#FFFFFF08",
-    "list.highlightForeground": "#FFF",
+    "list.activeSelectionBackground": "#232323",      // Selected item background
+    "list.activeSelectionForeground": "#E6E6E6",      // Selected item text
+    "list.inactiveSelectionBackground": "#232323",    // Inactive selection background
+    "list.errorForeground": "#FFF",                   // Error item text
+    "list.warningForeground": "#FFA16C",             // Warning item text
+    "list.hoverBackground": "#FFFFFF08",             // Hover background
+    "list.highlightForeground": "#FFF",              // Search match highlight
 
     // Input controls
-    "input.background": "#2C2C31",
-    "input.foreground": "#E6E6E6",
-    "inputOption.activeForeground": "#FFF",
+    "input.background": "#2C2C31",                    // Input box background
+    "input.foreground": "#E6E6E6",                    // Input text color
+    "inputOption.activeForeground": "#FFF",           // Active input text
 
     // Bracket pairs
-    "editorBracketHighlight.foreground1": "#5C6974",
-    "editorBracketHighlight.foreground2": "#6E678E",
-    "editorBracketHighlight.foreground3": "#6A7782",
-    "editorBracketHighlight.foreground4": "#6A7782",
-    "editorBracketHighlight.foreground5": "#6A7782",
-    "editorBracketHighlight.foreground6": "#6A7782",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#6A7782",
+    "editorBracketHighlight.foreground1": "#5C6974",  // Bracket pair color 1
+    "editorBracketHighlight.foreground2": "#6E678E",  // Bracket pair color 2
+    "editorBracketHighlight.foreground3": "#6A7782",  // Bracket pair color 3
+    "editorBracketHighlight.foreground4": "#6A7782",  // Bracket pair color 4
+    "editorBracketHighlight.foreground5": "#6A7782",  // Bracket pair color 5
+    "editorBracketHighlight.foreground6": "#6A7782",  // Bracket pair color 6
+    "editorBracketHighlight.unexpectedBracket.foreground": "#6A7782", // Mismatched bracket
 
     // Links and tooltips
-    "textLink.foreground": "#479FFA",
-    "textLink.activeForeground": "#479FFA",
-    "editorHoverWidget.background": "#161616",
-    "editorHoverWidget.border": "#282828",
-    "editorHoverWidget.foreground": "#E6E6E6",
+    "textLink.foreground": "#479FFA",                 // Link text color
+    "textLink.activeForeground": "#479FFA",           // Active link color
+    "editorHoverWidget.background": "#161616",        // Hover tooltip background
+    "editorHoverWidget.border": "#282828",            // Hover tooltip border
+    "editorHoverWidget.foreground": "#E6E6E6",        // Hover tooltip text
 
     // Scrollbar
-    "scrollbarSlider.background": "#34343480",
-    "scrollbarSlider.hoverBackground": "#343434",
+    "scrollbarSlider.background": "#34343480",        // Scrollbar background
+    "scrollbarSlider.hoverBackground": "#343434",     // Scrollbar hover background
 
     // Settings and Git
-    "settings.modifiedItemIndicator": "#E6E7A3",
-    "gitDecoration.modifiedResourceForeground": "#FFF",
-    "gitDecoration.untrackedResourceForeground": "#FFF",
+    "settings.modifiedItemIndicator": "#E6E7A3",      // Modified setting indicator
+    "gitDecoration.modifiedResourceForeground": "#FFF", // Modified file color
+    "gitDecoration.untrackedResourceForeground": "#FFF", // Untracked file color
 
     // Quick input/Command palette
-    "quickInput.background": "#2C2C31",
-    "quickInput.foreground": "#C1C1C1",
-    "quickInputList.focusBackground": "#FFFFFF16",
-    "quickInputList.focusForeground": "#FFF",
-    "descriptionForeground": "#C1C1C1",
-    "pickerGroup.foreground": "#C1C1C1"
+    "quickInput.background": "#2C2C31",               // Quick input background
+    "quickInput.foreground": "#C1C1C1",               // Quick input text
+    "quickInputList.focusBackground": "#FFFFFF16",    // Selected item background
+    "quickInputList.focusForeground": "#FFF",         // Selected item text
+    "descriptionForeground": "#C1C1C1",               // Description text
+    "pickerGroup.foreground": "#C1C1C1"               // Group label text
   },
   
   // -------------------------------------------------------------------------
@@ -130,7 +130,7 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#46474F"
+        "foreground": "#46474F" // Dark gray for all code comments (// and /* */)
       }
     },
     {
@@ -141,28 +141,28 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for variables and placeholders
       }
     },
     {
       "name": "Colors",
       "scope": ["constant.other.color"],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for color values in code
       }
     },
     {
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#D84F68"
+        "foreground": "#D84F68" // Red for invalid or illegal code constructs
       }
     },
     {
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#9099A1"
+        "foreground": "#9099A1" // Grayish for keywords like const, let, var, function, class
       }
     },
     {
@@ -180,7 +180,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#9099A1"
+        "foreground": "#9099A1" // Grayish for operators, control keywords (if, for, while) and HTML tag markers
       }
     },
     {
@@ -191,7 +191,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#E6E7A3"
+        "foreground": "#E6E7A3" // Light yellow for HTML/XML tags and deleted Git content
       }
     },
     {
@@ -203,21 +203,21 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#E6E7A3"
+        "foreground": "#E6E7A3" // Light yellow for function names and special methods
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for variables defined within blocks
       }
     },
     {
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for special variables and link strings
       }
     },
     {
@@ -232,7 +232,7 @@
         "constant.language.boolean"
       ],
       "settings": {
-        "foreground": "#F9B98C"
+        "foreground": "#F9B98C" // Peachy color for numbers, constants, and CSS values
       }
     },
     {
@@ -244,7 +244,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for strings and symbol definitions
       }
     },
     {
@@ -260,7 +260,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#E6E7A3"
+        "foreground": "#E6E7A3" // Light yellow for class names and support types
       }
     },
     {
@@ -272,6 +272,7 @@
         "source.less support.type.property-name",
         "source.stylus support.type.property-name",
         "source.postcss support.type.property-name",
+        "source.postcss support.type.property-name",
         "support.type.vendored.property-name.css",
         "source.css.scss entity.name.tag",
         "variable.parameter.keyframe-list.css",
@@ -281,7 +282,7 @@
         "meta.property-value.css"
       ],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for CSS properties and values
       }
     },
     {
@@ -292,21 +293,21 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#D84F68"
+        "foreground": "#D84F68" // Red for JavaScript module and import names
       }
     },
     {
       "name": "Language methods",
       "scope": ["variable.language"],
       "settings": {
-        "foreground": "#9592A4"
+        "foreground": "#9592A4" // Muted purple for language-specific methods (this, super, etc)
       }
     },
     {
       "name": "entity.name.method.js",
       "scope": ["entity.name.method.js"],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for JavaScript method names
       }
     },
     {
@@ -316,7 +317,7 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for JavaScript class methods and constructors
       }
     },
     {
@@ -333,7 +334,7 @@
         "punctuation.separator.key-value.css"
       ],
       "settings": {
-        "foreground": "#54C0A3"
+        "foreground": "#54C0A3" // Teal color for HTML attributes and CSS/SCSS selectors and properties
       }
     },
     {
@@ -343,7 +344,7 @@
         "text.html.basic entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#E6E7A3"
+        "foreground": "#E6E7A3" // Light yellow for HTML attribute names
       }
     },
     {
@@ -355,49 +356,49 @@
         "variable.parameter.misc.css"
       ],
       "settings": {
-        "foreground": "#E6E7A3"
+        "foreground": "#E6E7A3" // Light yellow for CSS class and ID selectors
       }
     },
     {
       "name": "CSS ID's",
       "scope": ["source.sass keyword.control", "meta.attribute-selector.scss"],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for SASS control keywords and attribute selectors
       }
     },
     {
       "name": "Inserted",
       "scope": ["markup.inserted"],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for inserted content in diffs
       }
     },
     {
       "name": "Deleted",
       "scope": ["markup.deleted"],
       "settings": {
-        "foreground": "#D84F68"
+        "foreground": "#D84F68" // Red for deleted content in diffs
       }
     },
     {
       "name": "Changed",
       "scope": ["markup.changed"],
       "settings": {
-        "foreground": "#9592A4"
+        "foreground": "#9592A4" // Muted purple for modified content in diffs
       }
     },
     {
       "name": "Regular Expressions",
       "scope": ["string.regexp"],
       "settings": {
-        "foreground": "#9592A4"
+        "foreground": "#9592A4" // Muted purple for regex patterns
       }
     },
     {
       "name": "Escape Characters",
       "scope": ["constant.character.escape"],
       "settings": {
-        "foreground": "#9592A4"
+        "foreground": "#9592A4" // Muted purple for escaped characters
       }
     },
     {
@@ -405,7 +406,7 @@
       "scope": ["*url*", "*link*", "*uri*"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#479FFA"
+        "foreground": "#479FFA" // Bright blue for URLs and links
       }
     },
     {
@@ -415,7 +416,7 @@
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for JavaScript decorators
       }
     },
     {
@@ -425,14 +426,14 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#D84F68"
+        "foreground": "#D84F68" // Red for JavaScript bind operator
       }
     },
     {
       "name": "JSON Keys (All Levels)",
       "scope": ["support.type.property-name.json"],
       "settings": {
-        "foreground": "#E6E7A3"
+        "foreground": "#E6E7A3" // Light yellow for all JSON property names
       }
     },
     {
@@ -442,14 +443,14 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for basic markdown text and list items
       }
     },
     {
       "name": "Markdown - Markup Raw Inline",
       "scope": ["text.html.markdown markup.inline.raw.markdown"],
       "settings": {
-        "foreground": "#9592A4"
+        "foreground": "#9592A4" // Muted purple for inline code in markdown
       }
     },
     {
@@ -458,7 +459,7 @@
         "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
       ],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for inline code markers (backticks)
       }
     },
     {
@@ -471,7 +472,7 @@
         "markup.inserted.git_gutter"
       ],
       "settings": {
-        "foreground": "#E6E7A3"
+        "foreground": "#E6E7A3" // Light yellow for markdown headings
       }
     },
     {
@@ -479,7 +480,7 @@
       "scope": ["markup.italic"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray italic text for markdown emphasis
       }
     },
     {
@@ -487,7 +488,7 @@
       "scope": ["markup.bold", "markup.bold string"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray bold text for markdown strong emphasis
       }
     },
     {
@@ -502,7 +503,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray bold-italic text for combined emphasis
       }
     },
     {
@@ -510,63 +511,63 @@
       "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#E6E7A3"
+        "foreground": "#E6E7A3" // Light yellow underlined text
       }
     },
     {
       "name": "Markdown - Blockquote",
       "scope": ["markup.quote punctuation.definition.blockquote.markdown"],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for blockquote markers
       }
     },
     {
       "name": "Markup - Quote",
       "scope": ["markup.quote"],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for quoted text
       }
     },
     {
       "name": "Markdown - Link",
       "scope": ["string.other.link.title.markdown"],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for link text
       }
     },
     {
       "name": "Markdown - Link Description",
       "scope": ["string.other.link.description.title.markdown"],
       "settings": {
-        "foreground": "#9592A4"
+        "foreground": "#9592A4" // Muted purple for link descriptions
       }
     },
     {
       "name": "Markdown - Link Anchor",
       "scope": ["constant.other.reference.link.markdown"],
       "settings": {
-        "foreground": "#E6E7A3"
+        "foreground": "#E6E7A3" // Light yellow for link references
       }
     },
     {
       "name": "Markup - Raw Block",
       "scope": ["markup.raw.block"],
       "settings": {
-        "foreground": "#9592A4"
+        "foreground": "#9592A4" // Muted purple for code blocks
       }
     },
     {
       "name": "Markdown - Raw Block Fenced",
       "scope": ["markup.raw.block.fenced.markdown"],
       "settings": {
-        "foreground": "#00000050"
+        "foreground": "#00000050" // Semi-transparent black for fenced code block backgrounds
       }
     },
     {
       "name": "Markdown - Fenced Bode Block",
       "scope": ["punctuation.definition.fenced.markdown"],
       "settings": {
-        "foreground": "#00000050"
+        "foreground": "#00000050" // Semi-transparent black for fenced code block markers
       }
     },
     {
@@ -577,14 +578,14 @@
         "punctuation.section.class.end"
       ],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for fenced code block content
       }
     },
     {
       "name": "Markdown - Fenced Language",
       "scope": ["variable.language.fenced.markdown"],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for language identifiers in fenced code blocks
       }
     },
     {
@@ -592,14 +593,14 @@
       "scope": ["meta.separator"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#65737E"
+        "foreground": "#65737E" // Muted blue-gray for markdown separators
       }
     },
     {
       "name": "Markup - Table",
       "scope": ["markup.table"],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E6E6E6" // Light gray for markdown tables
       }
     },
     {
@@ -620,17 +621,7 @@
         "punctuation.section.parameters"
       ],
       "settings": {
-        "foreground": "#5C6974"
-      }
-    },
-    {
-      "name": "Python Decorators",
-      "scope": [
-        "entity.name.function.decorator.python",
-        "punctuation.decorator.python"
-      ],
-      "settings": {
-        "foreground": "#E6E7A3"
+        "foreground": "#5C6974" // Dark gray for all types of brackets and delimiters
       }
     },
     // -------------------------- PYTHON SPECIFIC --------------------------
