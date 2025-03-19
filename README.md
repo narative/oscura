@@ -23,5 +23,12 @@ For proper syntax highlighting of styled-components, we recommend installing the
 
 This theme is crafted by the Fey team, following our design's color palette and principles. It's part of our commitment to creating beautiful tools. [Fey.com](https://fey.com)
 
+## Installation
+
+### VSCodium/VS Code
+1. Download `.vsix` file from [Releases](https://github.com/narative/oscura/releases)
+2. Open Extensions (Ctrl+Shift+X)
+3. Click "..." (More Actions) → "Install from VSIX"
+4. Select theme: Settings → Color Theme → Oscura
 
 <a href="https://marketplace.visualstudio.com/items?itemName=Fey.oscura"><strong>Install now</strong></a>
