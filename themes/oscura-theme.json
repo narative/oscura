@@ -14,11 +14,12 @@
     "editorError.foreground": "#FF5C5C",               // Error squiggles color
 
     // Selection and highlighting
-    "editor.selectionBackground": "#EAEC8A16",         // Selected text background
-    "editor.selectionHighlightBackground": "#FFFFFF08", // Matching selection background
-    "editor.wordHighlightBackground": "#EAEC8A21",     // Reference highlight background
-    "editor.wordHighlightStrongBackground": "#EAEC8A21", // Write-access reference background
-    "selection.background": "#5A5B63",                 // General selection background
+    "editor.selectionBackground": "#EAEC8A21",           // Selected text background
+    "editor.selectionHighlightBackground": "#FFFFFF08",  // Matching selection background
+    "editor.wordHighlightBackground": "#EAEC8A16",       // Reference highlight background
+    "editor.wordHighlightStrongBackground": "#EAEC8A16", // Write-access reference background
+    "selection.background": "#5A5B63",                   // General selection background
+    "editor.findMatchBackground": "#EAEC8A54",           // Search highlight background
 
     // Diff editor
     "diffEditor.insertedTextBackground": "#E6E6E615",  // Added text background
@@ -72,7 +73,7 @@
     "button.background": "#E6E7A3",                   // Button background
     "button.hoverBackground": "#D6D876",              // Button hover background
     "button.foreground": "#000",                      // Button text
-    "focusBorder": "#E6E7A3",                        // Focus border color
+    "focusBorder": "#FFFFFF16",                       // Focus border color
 
     // List and tree views
     "list.activeSelectionBackground": "#232323",      // Selected item background
@@ -622,6 +623,20 @@
       ],
       "settings": {
         "foreground": "#5C6974" // Dark gray for all types of brackets and delimiters
+      }
+    },
+    {
+      "name": "Next.js Directives",
+      "scope": [
+        "meta.function string.quoted.double.ts",
+        "meta.function string.quoted.single.ts",
+        "meta.function string.quoted.double.js",
+        "meta.function string.quoted.single.js",
+        "meta.function string.quoted.double.tsx",
+        "meta.function string.quoted.single.tsx"
+      ],
+      "settings": {
+        "foreground": "#F9B98C"  // Next.js directives like "use server"
       }
     }
   ]

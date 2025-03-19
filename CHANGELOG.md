@@ -2,6 +2,17 @@
 
 All notable changes to the "Oscura" theme extension will be documented in this file.
 
+## [0.0.7] - 2024-03-21
+
+### Added
+- Support for Next.js server directives ("use server", "use client")
+- Enhanced token coloring for TypeScript/JavaScript directives in .ts, .js, and .tsx files
+
+### Changed
+- Updated string token scopes to better handle Next.js directives while maintaining existing string coloring
+- Improved selection highlight contrast for better visibility
+- Enhanced search match highlighting for clearer results
+
 ## [0.0.6] - 2024-03-21
 
 ### Changed
