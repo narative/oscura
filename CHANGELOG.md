@@ -2,6 +2,12 @@
 
 All notable changes to the "Oscura" theme extension will be documented in this file.
 
+## [0.0.9] - 2024-03-21
+
+### Added
+- Published theme to Open VSX Registry
+- Updated README with improved documentation
+
 ## [0.0.8] - 2024-03-21
 
 ### Added
