@@ -31,4 +31,6 @@ This theme is crafted by the Fey team, following our design's color palette and 
 3. Click "..." (More Actions) → "Install from VSIX"
 4. Select theme: Settings → Color Theme → Oscura
 
+### VScode Marketplace
+
 <a href="https://marketplace.visualstudio.com/items?itemName=Fey.oscura"><strong>Install now</strong></a>
