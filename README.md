@@ -25,12 +25,14 @@ This theme is crafted by the Fey team, following our design's color palette and 
 
 ## Installation
 
-### VSCodium/VS Code
-1. Download `.vsix` file from [Releases](https://github.com/narative/oscura/releases)
-2. Open VSCodium/VS Code
-3. Open the quick menu (ctrl/cmd+shift+P) → "Install from VSIX"
-4. Select theme: Settings → Color Theme → Oscura
-
 ### VScode Marketplace
 
+Search for "Oscura Theme" in the VSCode extensions panel or click "Install" from the marketplace website.
+
 <a href="https://marketplace.visualstudio.com/items?itemName=Fey.oscura"><strong>Install now</strong></a>
+
+### Open VSX
+
+For editors that use Open VSX Registry (VSCodium, Fleet, Windsurf etc) or require manual installation, you can download the `.vsix` file directly. After downloading, install it through your editor's extension menu using the "Install from VSIX" option.
+
+<a href="https://open-vsx.org/extension/Fey/oscura"><strong>Install now</strong></a>
