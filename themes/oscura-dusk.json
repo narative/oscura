@@ -794,6 +794,20 @@
         "foreground": "#F9B98C",
         "fontStyle": "italic"
       }
+    },
+    {
+      "name": "String Literals in TypeScript/JavaScript",
+      "scope": [
+        "string.quoted.single.ts",
+        "string.quoted.double.ts",
+        "string.quoted.single.js",
+        "string.quoted.double.js",
+        "string.quoted.single.tsx",
+        "string.quoted.double.tsx"
+      ],
+      "settings": {
+        "foreground": "#4EBE96" // Light green for string literals
+      }
     }
   ]
 }

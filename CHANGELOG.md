@@ -2,6 +2,12 @@
 
 All notable changes to the "Oscura" theme extension will be documented in this file.
 
+## [0.1.1] - 2024-03-21
+
+### Added
+- Enhanced string literal coloring in TypeScript/JavaScript files
+- Improved visual distinction between enum members and their string literal values
+
 ## [0.1.0] - 2024-03-21
 
 ### Changed
