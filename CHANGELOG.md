@@ -2,6 +2,12 @@
 
 All notable changes to the "Oscura" theme extension will be documented in this file.
 
+## [0.1.0] - 2024-03-21
+
+### Changed
+- Introduced new "Dusk" theme variant with slightly lighter background
+- Minor color adjustments to improve overall theme consistency
+
 ## [0.0.9] - 2024-03-21
 
 ### Added

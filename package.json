@@ -2,7 +2,7 @@
   "name": "oscura",
   "displayName": "Oscura Theme",
   "description": "An unapologetically dark and minimal theme.",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "publisher": "Fey",
   "repository": {
     "type": "git",
@@ -18,9 +18,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Oscura",
+        "label": "Oscura Midnight",
         "uiTheme": "vs-dark",
-        "path": "./themes/oscura-theme.json"
+        "path": "./themes/oscura-midnight.json"
+      },
+      {
+        "label": "Oscura Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oscura-dusk.json"
       }
     ]
   }

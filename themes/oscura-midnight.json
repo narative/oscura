@@ -1,5 +1,5 @@
 {
-  "name": "Oscura",
+  "name": "Oscura Midnight",
   // -------------------------------------------------------------------------
   // Workbench UI Colors (Controls the visual styling of the UI elements)
   // -------------------------------------------------------------------------
@@ -35,13 +35,13 @@
     // Sidebar and activity bar
     "sideBar.background": "#0B0B0F",                   // Sidebar background
     "sideBar.foreground": "#C1C1C1",                   // Sidebar text color
-    "sideBarTitle.foreground": "#9592A4",              // Sidebar title color
-    "sideBarSectionHeader.foreground": "#9592A4",      // Section header text
+    "sideBarTitle.foreground": "#868F97",              // Sidebar title color
+    "sideBarSectionHeader.foreground": "#868F97",      // Section header text
     "sideBarSectionHeader.background": "#0B0B0F",      // Section header background
     
     // Activity bar
     "activityBar.background": "#0B0B0F",               // Activity bar background
-    "activityBar.foreground": "#9592A4",               // Activity bar icons
+    "activityBar.foreground": "#868F97",               // Activity bar icons
     "activityBarBadge.background": "#E6E7A3",          // Badge background
     "activityBarBadge.foreground": "#000",             // Badge text
 
@@ -60,7 +60,7 @@
 
     // Status bar
     "statusBar.background": "#0B0B0F",                // Status bar background
-    "statusBar.foreground": "#9592A4",                // Status bar text
+    "statusBar.foreground": "#868F97",                // Status bar text
     "statusBar.noFolderBackground": "#0B0B0F",        // Status bar background when no folder is open
     "statusBar.debuggingBackground": "#4EBE96",       // Debug mode background
     "statusBar.debuggingForeground": "#E6E6E6",       // Debug mode text
@@ -85,7 +85,7 @@
     "list.highlightForeground": "#FFF",              // Search match highlight
 
     // Input controls
-    "input.background": "#2C2C31",                    // Input box background
+    "input.background": "#FFFFFF11",                  // Chat input box background
     "input.foreground": "#E6E6E6",                    // Input text color
     "inputOption.activeForeground": "#FFF",           // Active input text
 
@@ -301,7 +301,7 @@
       "name": "Language methods",
       "scope": ["variable.language"],
       "settings": {
-        "foreground": "#9592A4" // Muted purple for language-specific methods (this, super, etc)
+        "foreground": "#868F97" // Color for language-specific methods (this, super, etc)
       }
     },
     {
@@ -385,21 +385,21 @@
       "name": "Changed",
       "scope": ["markup.changed"],
       "settings": {
-        "foreground": "#9592A4" // Muted purple for modified content in diffs
+        "foreground": "#868F97" // Color for modified content in diffs
       }
     },
     {
       "name": "Regular Expressions",
       "scope": ["string.regexp"],
       "settings": {
-        "foreground": "#9592A4" // Muted purple for regex patterns
+        "foreground": "#868F97" // Color for regex patterns
       }
     },
     {
       "name": "Escape Characters",
       "scope": ["constant.character.escape"],
       "settings": {
-        "foreground": "#9592A4" // Muted purple for escaped characters
+        "foreground": "#868F97" // Color for escaped characters
       }
     },
     {
@@ -451,7 +451,7 @@
       "name": "Markdown - Markup Raw Inline",
       "scope": ["text.html.markdown markup.inline.raw.markdown"],
       "settings": {
-        "foreground": "#9592A4" // Muted purple for inline code in markdown
+        "foreground": "#868F97" // Color for inline code in markdown
       }
     },
     {
@@ -540,7 +540,7 @@
       "name": "Markdown - Link Description",
       "scope": ["string.other.link.description.title.markdown"],
       "settings": {
-        "foreground": "#9592A4" // Muted purple for link descriptions
+        "foreground": "#868F97" // Color for link descriptions
       }
     },
     {
@@ -554,7 +554,7 @@
       "name": "Markup - Raw Block",
       "scope": ["markup.raw.block"],
       "settings": {
-        "foreground": "#9592A4" // Muted purple for code blocks
+        "foreground": "#868F97" // Color for code blocks
       }
     },
     {
@@ -659,7 +659,7 @@
       "name": "Python Function Arguments",
       "scope": ["variable.parameter.function.python"],
       "settings": {
-        "foreground": "#9592A4",
+        "foreground": "#868F97",
         "fontStyle": "italic"
       }
     },
@@ -712,7 +712,7 @@
       "name": "Python Self Parameter",
       "scope": ["variable.parameter.function.language.special.self.python"],
       "settings": {
-        "foreground": "#9592A4"
+        "foreground": "#868F97"
       }
     },
     {
@@ -784,7 +784,7 @@
       "scope": ["string.quoted.docstring.multi.python"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#9592A4"
+        "foreground": "#868F97"
       }
     },
     {

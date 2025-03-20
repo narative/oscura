@@ -3,7 +3,7 @@
 
 # Oscura by Fey
 
-Fey's theme features meticulously curated accent colors and precisely balanced contrast, crafting a sophisticated coding environment that's both elegant and easy on the eyes.
+Fey's theme features meticulously curated accent colors and precisely balanced contrast, crafting a sophisticated coding environment that's both elegant and easy on the eyes. Available in two variants: **Midnight** for those who prefer deep contrast, and **Dusk** for a more moderate viewing experience.
 
 ## Recommended Settings and extension
 
