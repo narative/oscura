@@ -10,7 +10,7 @@
     "editorLineNumber.foreground": "#32333B",          // Line number color
     "editorLineNumber.activeForeground": "#E6E6E6",    // Active line number color
     "editorGroupHeader.tabsBackground": "#131419",     // Editor group header background
-    "editorWarning.foreground": "#FF5C5C",             // Warning squiggles color
+    "editorWarning.foreground": "#D2D714",             // Warning squiggles color
     "editorError.foreground": "#FF5C5C",               // Error squiggles color
 
     // Selection and highlighting
@@ -34,7 +34,7 @@
 
     // Sidebar and activity bar
     "sideBar.background": "#131419",                   // Sidebar background
-    "sideBar.foreground": "#C1C1C1",                   // Sidebar text color
+    "sideBar.foreground": "#C1C1C195",                 // Sidebar text color
     "sideBarTitle.foreground": "#868F97",              // Sidebar title color
     "sideBarSectionHeader.foreground": "#868F97",      // Section header text
     "sideBarSectionHeader.background": "#131419",      // Section header background
@@ -79,13 +79,13 @@
     "list.activeSelectionBackground": "#232323",      // Selected item background
     "list.activeSelectionForeground": "#E6E6E6",      // Selected item text
     "list.inactiveSelectionBackground": "#232323",    // Inactive selection background
-    "list.errorForeground": "#FFF",                   // Error item text
-    "list.warningForeground": "#FFA16C",             // Warning item text
+    "list.errorForeground": "#FF5C5C",                // Error item text
+    "list.warningForeground": "#D2D714",              // Warning item text
     "list.hoverBackground": "#FFFFFF08",             // Hover background
     "list.highlightForeground": "#FFF",              // Search match highlight
 
     // Input controls
-    "input.background": "#FFFFFF10",                  // Chat input box background
+    "input.background": "#FFFFFF11",                  // Chat input box background
     "input.foreground": "#E6E6E6",                    // Input text color
     "inputOption.activeForeground": "#FFF",           // Active input text
 
@@ -113,6 +113,8 @@
     "settings.modifiedItemIndicator": "#E6E7A3",      // Modified setting indicator
     "gitDecoration.modifiedResourceForeground": "#FFF", // Modified file color
     "gitDecoration.untrackedResourceForeground": "#FFF", // Untracked file color
+    "gitDecoration.conflictingResourceForeground": "#FF5C5C", // Conflicting changes color
+    "gitDecoration.deletedResourceForeground": "#FF5C5C", // Deleted files color
 
     // Quick input/Command palette
     "quickInput.background": "#2C2C31",               // Quick input background
@@ -807,6 +809,13 @@
       ],
       "settings": {
         "foreground": "#4EBE96" // Light green for string literals
+      }
+    },
+    {
+      "name": "Template String Text Content",
+      "scope": ["string.template.js", "string.template.ts"],
+      "settings": {
+        "foreground": "#F6B98B" // Light orange for template string text content
       }
     }
   ]
