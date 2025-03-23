@@ -22,10 +22,10 @@
     "editor.findMatchBackground": "#EAEC8A54",           // Search highlight background
 
     // Diff editor
-    "diffEditor.insertedTextBackground": "#E6E6E615",  // Added text background
-    "diffEditor.insertedLineBackground": "#E6E6E615",  // Added line background
-    "diffEditor.removedTextBackground": "#D84F6815",   // Removed text background
-    "diffEditor.removedLineBackground": "#D84F6815",   // Removed line background
+    "diffEditor.insertedTextBackground": "#4EBE9625",   // Added text background
+    "diffEditor.insertedLineBackground": "#4EBE9625",   // Added line background
+    "diffEditor.removedTextBackground": "#FF5C5C50",    // Removed text background
+    "diffEditor.removedLineBackground": "#FF5C5C50",    // Removed line background
 
     // Editor gutter
     "editorGutter.addedBackground": "#E6E6E6",         // Added line gutter indicator

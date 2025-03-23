@@ -2,6 +2,11 @@
 
 All notable changes to the "Oscura" theme extension will be documented in this file.
 
+## [0.1.3] - 2025-03-21
+
+### Changed
+- Updated diff editor colors for better visibility
+
 ## [0.1.2] - 2025-03-21
 
 ### Added
