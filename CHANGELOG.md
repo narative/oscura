@@ -2,6 +2,15 @@
 
 All notable changes to the "Oscura" theme extension will be documented in this file.
 
+## [0.1.4] - 2025-03-21
+
+### Changed
+- Refined string literal coloring in TypeScript/JavaScript:
+  - Made string literals in object literals, array literals, and enum members green for better readability
+  - Kept import path strings white for a cleaner look
+  - Made SVG and HTML attribute strings white to reduce visual noise
+  - Maintained template literal coloring
+
 ## [0.1.3] - 2025-03-21
 
 ### Changed

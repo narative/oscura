@@ -800,15 +800,67 @@
     {
       "name": "String Literals in TypeScript/JavaScript",
       "scope": [
-        "string.quoted.single.ts",
-        "string.quoted.double.ts",
-        "string.quoted.single.js",
-        "string.quoted.double.js",
-        "string.quoted.single.tsx",
-        "string.quoted.double.tsx"
+        "meta.object-literal.key string.quoted.single.ts",
+        "meta.object-literal.key string.quoted.double.ts",
+        "meta.object-literal.key string.quoted.single.js",
+        "meta.object-literal.key string.quoted.double.js",
+        "meta.object-literal.key string.quoted.single.tsx",
+        "meta.object-literal.key string.quoted.double.tsx",
+        "meta.object.member string.quoted.single.ts",
+        "meta.object.member string.quoted.double.ts",
+        "meta.object.member string.quoted.single.js",
+        "meta.object.member string.quoted.double.js",
+        "meta.object.member string.quoted.single.tsx",
+        "meta.object.member string.quoted.double.tsx",
+        "meta.array.literal string.quoted.single.ts",
+        "meta.array.literal string.quoted.double.ts",
+        "meta.array.literal string.quoted.single.js",
+        "meta.array.literal string.quoted.double.js",
+        "meta.array.literal string.quoted.single.tsx",
+        "meta.array.literal string.quoted.double.tsx",
+        "meta.enum.declaration string.quoted.single.ts",
+        "meta.enum.declaration string.quoted.double.ts",
+        "meta.enum.declaration string.quoted.single.js",
+        "meta.enum.declaration string.quoted.double.js",
+        "meta.enum.declaration string.quoted.single.tsx",
+        "meta.enum.declaration string.quoted.double.tsx"
       ],
       "settings": {
-        "foreground": "#4EBE96" // Light green for string literals
+        "foreground": "#4EBE96" // Light green for meaningful string literals
+      }
+    },
+    {
+      "name": "SVG and HTML Attribute Strings",
+      "scope": [
+        "meta.tag string.quoted.single.ts",
+        "meta.tag string.quoted.double.ts",
+        "meta.tag string.quoted.single.js",
+        "meta.tag string.quoted.double.js",
+        "meta.tag string.quoted.single.tsx",
+        "meta.tag string.quoted.double.tsx",
+        "meta.attribute string.quoted.single.ts",
+        "meta.attribute string.quoted.double.ts",
+        "meta.attribute string.quoted.single.js",
+        "meta.attribute string.quoted.double.js",
+        "meta.attribute string.quoted.single.tsx",
+        "meta.attribute string.quoted.double.tsx"
+      ],
+      "settings": {
+        "foreground": "#E6E6E6" // Light gray (white) for SVG and HTML attributes
+      }
+    },
+    {
+      "name": "Import Statements in TypeScript/JavaScript",
+      "scope": [
+        "meta.import string.quoted.single.ts",
+        "meta.import string.quoted.double.ts",
+        "meta.import string.quoted.single.js",
+        "meta.import string.quoted.double.js",
+        "meta.import string.quoted.single.tsx",
+        "meta.import string.quoted.double.tsx"
+      ],
+      "settings": {
+        "foreground": "#E6E6E6" // Light gray (white) for import statements
       }
     },
     {
